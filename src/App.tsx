@@ -16,7 +16,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-950 text-white">
+      <div className="min-h-screen transition-colors duration-300">
         <TopBar />
         <Navbar />
         <main className="pt-32">
