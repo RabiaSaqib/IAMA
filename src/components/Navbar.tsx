@@ -84,13 +84,10 @@ const Navbar: React.FC = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
               <img
-                src="https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=100"
+                src="/logo-mobile.png"
                 alt="IAMA Logo"
-                className="w-10 h-10 rounded-lg object-cover"
+                className="h-10 w-auto object-contain"
               />
-              <span className="text-2xl font-bold bg-gradient-to-r from-fuchsia-400 to-purple-400 bg-clip-text text-transparent">
-                IAMA
-              </span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -211,13 +208,10 @@ const Navbar: React.FC = () => {
         <div className={`flex items-center justify-between p-4 border-b ${themeClasses.mobileBorder}`}>
           <div className="flex items-center space-x-2">
             <img
-              src="https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=100"
+              src="/logo-mobile.png"
               alt="IAMA Logo"
-              className="w-8 h-8 rounded-lg object-cover"
+              className="h-8 w-auto object-contain"
             />
-            <span className="text-lg font-bold bg-gradient-to-r from-fuchsia-400 to-purple-400 bg-clip-text text-transparent">
-              IAMA
-            </span>
           </div>
           <button
             onClick={closeMobileMenu}
